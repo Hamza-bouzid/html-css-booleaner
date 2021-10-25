@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+/*****************
+HEADER
+*****************/
+
+header {
+  background: url(img/pattern.png), #4ea0ff;
+  background-size: 400px;
+  height: 100px;
+  position: relative;
+}
+
+header img {
+  width: 200px;
+  position: absolute;
+  bottom: 10px;
+  left: 8px;
+}
+
+/*****************
+MAIN
+*****************/
+
+main {
+  margin-left: 10px;
+  width: 90%;
+}
+
+main section.titolo {
+  margin: 10px 0;
+}
+
+main section h1 {
+  font-size: 35px;
+}
+
+main section.titolo p {
+  color: #929292;
+}
+
+main section.titolo span {
+  color: #66c9f3;
+}
+
+main section .foto {
+  font-size: 12px;
+}
+
+.foto,
+.testo,
+.lista,
+.tabella {
+  margin-bottom: 20px;
+}
+
+.testo span {
+  background-color: yellow;
+}
+
+.lista {
+  margin-left: 16px;
+}
+
+/**Table**/
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+table {
+  text-align: left;
+  background-color: #b1e5f2;
+}
+
+table th.cella-piccola,
+table td.cella-piccola {
+  width: 25%;
+}
+
+table td.cella-piccola {
+  padding: 15px 0;
+}
+
+table thead {
+  background-color: #66c9f3;
+  color: #fff;
+}
+
+.grey-row {
+  background-color: #ffffff;
+}
+
+/*****************
+FOOTER
+*****************/
+
+footer h3 {
+
+}
