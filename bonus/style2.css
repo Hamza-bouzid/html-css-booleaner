@@ -16,14 +16,6 @@ header {
   background: url(img/pattern.png), #4ea0ff;
   background-size: 400px;
   height: 100px;
-  position: relative;
-}
-
-header img {
-  width: 200px;
-  position: absolute;
-  bottom: 10px;
-  left: 8px;
 }
 
 /*****************
@@ -32,8 +24,18 @@ MAIN
 
 main,
 footer {
-  margin-left: 10px;
-  width: 90%;
+  margin: auto;
+  width: 1050px;
+}
+
+main {
+  position: relative;
+}
+
+main img.logo {
+  width: 200px;
+  position: absolute;
+  top: -70px;
 }
 
 main section.titolo {
